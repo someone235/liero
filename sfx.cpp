@@ -22,6 +22,7 @@ extern "C" void SDLCALL Sfx_callback(void *userdata, Uint8 *stream, int len)
 
 void Sfx::init()
 {
+	return;
 #if !DISABLE_SOUND
 	if(initialized)
 		return;
